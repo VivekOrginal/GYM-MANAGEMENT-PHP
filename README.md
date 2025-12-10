@@ -1,27 +1,27 @@
-# 🏋️ GYM MANAGEMENT SYSTEM - Complete Fitness Platform
+# 🏋️ GYM MANAGEMENT SYSTEM (DEMO VERSION)
 
 <div align="center">
 
 ![PHP](https://img.shields.io/badge/PHP-7.4+-blue.svg)
 ![MySQL](https://img.shields.io/badge/MySQL-5.7+-green.svg)
-![License](https://img.shields.io/badge/License-MIT-brightgreen.svg)
-![Status](https://img.shields.io/badge/Status-Production%20Ready-success.svg)
+![License](https://img.shields.io/badge/License-Proprietary-red.svg)
+![Status](https://img.shields.io/badge/Status-Demo-yellow.svg)
 
 </div>
 
-## 🌟 COMPLETE WORKING PROJECT
+## ⚠️ IMPORTANT NOTICE
 
-**THIS IS A FULLY FUNCTIONAL GYM MANAGEMENT SYSTEM**
+**THIS IS A DEMONSTRATION VERSION WITH LIMITED FUNCTIONALITY**
 
-All features including member management, trainer systems, payment processing, and admin controls are fully implemented and production-ready.
+Core backend features including payment processing, email notifications, and advanced admin controls have been intentionally removed. This version is for **evaluation and portfolio purposes only**.
 
-### 📧 Contact Developer
+### 📧 Contact for Full Project
 
 **Developer:** Vivek P S  
 **Email:** viveksubhash4@gmail.com  
 **GitHub:** [@VivekOrginal](https://github.com/VivekOrginal)
 
-💼 **Need customization or support?** Contact me for professional development services and technical assistance.
+💼 **Interested in the complete working project?** Contact me to purchase the full version with all features fully implemented and production-ready.
 
 ---
 
@@ -35,9 +35,9 @@ All features including member management, trainer systems, payment processing, a
 - [Configuration](#configuration)
 - [Usage](#usage)
 - [Database Schema](#database-schema)
+- [Demo Limitations](#demo-limitations)
+- [Full Version Features](#full-version-features)
 - [Screenshots](#screenshots)
-- [API Documentation](#api-documentation)
-- [Security Features](#security-features)
 - [License](#license)
 - [Contact](#contact)
 
@@ -46,6 +46,8 @@ All features including member management, trainer systems, payment processing, a
 ## 🌟 Overview
 
 The Gym Management System is a comprehensive PHP-based web application designed to streamline gym operations and enhance member experience. This platform combines member management, trainer coordination, payment processing, and administrative controls to create a complete fitness center ecosystem.
+
+**⚠️ Note:** This demo version showcases the UI/UX and frontend functionality. Backend features like payment processing and email notifications are not functional in this version.
 
 ### Mission Statement
 **"Empowering fitness centers with technology for efficient management and enhanced member experience"**
@@ -61,69 +63,63 @@ The Gym Management System is a comprehensive PHP-based web application designed 
 
 ## ✨ Features
 
+**⚠️ DEMO VERSION NOTICE:** The features listed below represent the full project design. In this demo version, only frontend UI/UX is functional. Backend operations (payments, emails) are not implemented.
+
 ### 🔐 User Authentication & Management
-- **Multi-Role System** - Members, Trainers, and Administrators
-- **Secure Registration** - Email verification and validation
-- **Password Management** - Reset and change password functionality
-- **Profile Management** - Complete user profile customization
-- **Session Security** - Secure session handling and timeout
-- **Role-Based Access** - Different permissions for each user type
+- **Multi-Role System** - Members, Trainers, and Administrators *(UI only in demo)*
+- **Secure Registration** - Email verification and validation *(Not functional in demo)*
+- **Password Management** - Reset and change password functionality *(Frontend only)*
+- **Profile Management** - Complete user profile customization *(Basic functionality)*
+- **Session Security** - Secure session handling and timeout *(Limited in demo)*
+- **Role-Based Access** - Different permissions for each user type *(Frontend only)*
 
 ### 👥 Member Management System
-- **Member Registration** - Complete registration with profile setup
-- **Membership Plans** - Multiple membership tiers and packages
-- **Booking System** - Book gym sessions and classes
-- **Payment Integration** - Secure payment processing for memberships
-- **Diet Plan Requests** - Request personalized diet plans from trainers
-- **Progress Tracking** - Monitor fitness progress and achievements
-- **Membership Status** - Real-time membership status and expiry tracking
-- **Payment History** - Complete transaction history and receipts
+- **Member Registration** - Complete registration with profile setup *(UI only)*
+- **Membership Plans** - Multiple membership tiers and packages *(Static data)*
+- **Booking System** - Book gym sessions and classes *(Frontend only)*
+- **Payment Integration** - Secure payment processing for memberships *(Not functional in demo)*
+- **Diet Plan Requests** - Request personalized diet plans from trainers *(UI only)*
+- **Progress Tracking** - Monitor fitness progress and achievements *(Frontend only)*
+- **Membership Status** - Real-time membership status and expiry tracking *(Static data)*
+- **Payment History** - Complete transaction history and receipts *(Not functional in demo)*
 
 ### 🏃♂️ Trainer Management System
-- **Trainer Registration** - Professional trainer onboarding
-- **Profile Verification** - Admin approval system for trainers
-- **Diet Plan Creation** - Create and manage personalized diet plans
-- **Member Assignment** - Assign and manage members
-- **Progress Monitoring** - Track member progress and performance
-- **Schedule Management** - Manage training schedules and availability
-- **Revenue Tracking** - Monitor earnings from diet plans and sessions
-- **Communication Tools** - Direct communication with assigned members
+- **Trainer Registration** - Professional trainer onboarding *(UI only)*
+- **Profile Verification** - Admin approval system for trainers *(Frontend only)*
+- **Diet Plan Creation** - Create and manage personalized diet plans *(UI only)*
+- **Member Assignment** - Assign and manage members *(Frontend only)*
+- **Progress Monitoring** - Track member progress and performance *(Not functional in demo)*
+- **Schedule Management** - Manage training schedules and availability *(Frontend only)*
+- **Revenue Tracking** - Monitor earnings from diet plans and sessions *(Not functional in demo)*
+- **Communication Tools** - Direct communication with assigned members *(Not functional in demo)*
 
 ### 🛠️ Admin Panel & Controls
-- **Complete Dashboard** - Comprehensive overview of gym operations
-- **Member Analytics** - Detailed member statistics and insights
-- **Trainer Management** - Approve, manage, and monitor trainers
-- **Category Management** - Create and manage workout categories
-- **Plan Management** - Configure membership and diet plans
-- **Payment Oversight** - Monitor all financial transactions
-- **Report Generation** - Generate detailed reports and analytics
-- **System Configuration** - Configure system settings and preferences
+- **Complete Dashboard** - Comprehensive overview of gym operations *(UI only)*
+- **Member Analytics** - Detailed member statistics and insights *(Static data)*
+- **Trainer Management** - Approve, manage, and monitor trainers *(Frontend only)*
+- **Category Management** - Create and manage workout categories *(Basic functionality)*
+- **Plan Management** - Configure membership and diet plans *(UI only)*
+- **Payment Oversight** - Monitor all financial transactions *(Not functional in demo)*
+- **Report Generation** - Generate detailed reports and analytics *(Not functional in demo)*
+- **System Configuration** - Configure system settings and preferences *(Frontend only)*
 
 ### 💰 Payment & Financial System
-- **Secure Payment Processing** - Multiple payment gateway support
-- **Membership Fee Management** - Automated membership billing
-- **Diet Plan Payments** - Separate billing for diet consultations
-- **Payment Status Tracking** - Real-time payment status updates
-- **Invoice Generation** - Automatic invoice creation and delivery
-- **Revenue Analytics** - Detailed financial reporting and insights
-- **Refund Management** - Handle refunds and payment disputes
-- **Payment Reminders** - Automated payment reminder system
-
-### 📊 Analytics & Reporting
-- **Member Analytics** - Registration trends, retention rates
-- **Revenue Reports** - Income analysis and financial insights
-- **Trainer Performance** - Trainer efficiency and member satisfaction
-- **Usage Statistics** - Gym facility utilization reports
-- **Growth Metrics** - Business growth and expansion insights
-- **Custom Reports** - Generate custom reports based on specific criteria
+- **Secure Payment Processing** - Multiple payment gateway support *(Not functional in demo)*
+- **Membership Fee Management** - Automated membership billing *(Not functional in demo)*
+- **Diet Plan Payments** - Separate billing for diet consultations *(Not functional in demo)*
+- **Payment Status Tracking** - Real-time payment status updates *(Frontend only)*
+- **Invoice Generation** - Automatic invoice creation and delivery *(Not functional in demo)*
+- **Revenue Analytics** - Detailed financial reporting and insights *(Not functional in demo)*
+- **Refund Management** - Handle refunds and payment disputes *(Not functional in demo)*
+- **Payment Reminders** - Automated payment reminder system *(Not functional in demo)*
 
 ### 📱 Modern UI/UX Design
-- **Responsive Design** - Optimized for all devices and screen sizes
-- **Modern Interface** - Clean, professional, and user-friendly design
-- **Dark Theme Support** - Modern dark theme with gradient accents
-- **Mobile-First** - Optimized for mobile devices and tablets
-- **Fast Loading** - Optimized performance and quick page loads
-- **Accessibility** - WCAG compliant and accessible design
+- **Responsive Design** - Optimized for all devices and screen sizes *(Fully functional)*
+- **Modern Interface** - Clean, professional, and user-friendly design *(Fully functional)*
+- **Dark Theme Support** - Modern dark theme with gradient accents *(Fully functional)*
+- **Mobile-First** - Optimized for mobile devices and tablets *(Fully functional)*
+- **Fast Loading** - Optimized performance and quick page loads *(Fully functional)*
+- **Accessibility** - WCAG compliant and accessible design *(Fully functional)*
 
 ---
 
@@ -157,16 +153,6 @@ The Gym Management System is a comprehensive PHP-based web application designed 
 - Visual Studio Code (Recommended IDE)
 ```
 
-### Security Features
-```
-- Password hashing (bcrypt)
-- SQL injection prevention
-- XSS protection
-- CSRF protection
-- Session security
-- Input validation and sanitization
-```
-
 ---
 
 ## 🏗️ System Architecture
@@ -176,68 +162,18 @@ The Gym Management System is a comprehensive PHP-based web application designed 
 gym/
 ├── assets/                     # Static assets
 │   ├── css/                   # Stylesheets
-│   │   ├── bootstrap.min.css
-│   │   ├── main.css
-│   │   └── responsive.css
 │   ├── js/                    # JavaScript files
-│   │   ├── bootstrap.min.js
-│   │   ├── jquery.min.js
-│   │   └── main.js
 │   ├── img/                   # Images and graphics
 │   └── fonts/                 # Font files
-├── uploads/                   # User uploads
-│   ├── gym_images/           # Gym facility images
-│   ├── trainer_id_proofs/    # Trainer verification documents
-│   ├── diet_plans/           # Diet plan documents
-│   └── videos/               # Promotional videos
+├── uploads/                   # User uploads (demo files)
 ├── PHPMailer/                # Email functionality
-│   ├── src/                  # PHPMailer source files
-│   └── language/             # Language files
 ├── vendor/                   # Composer dependencies
 ├── Doc/                      # Documentation files
 ├── screenshots/              # Application screenshots
-├── config/                   # Configuration files
-├── includes/                 # Common PHP includes
-├── admin/                    # Admin panel files
-├── trainer/                  # Trainer dashboard files
-├── member/                   # Member dashboard files
-├── auth/                     # Authentication files
-├── api/                      # API endpoints
-├── database/                 # Database files
-│   ├── migrations/           # Database migrations
-│   └── seeds/                # Sample data
+├── *.php                     # Core PHP application files
+├── *.html                    # Static HTML pages
 ├── composer.json             # Composer configuration
-├── .htaccess                 # Apache configuration
-├── index.html                # Main entry point
 └── README.md                 # This file
-```
-
-### Application Flow
-```
-1. User Access
-   ↓
-2. Authentication Check
-   ↓
-3. Role-Based Routing:
-   - Member Dashboard
-   - Trainer Dashboard  
-   - Admin Panel
-   ↓
-4. Feature Access:
-   - Profile Management
-   - Membership Operations
-   - Payment Processing
-   - Analytics & Reports
-   ↓
-5. Database Operations:
-   - CRUD Operations
-   - Transaction Processing
-   - Data Analytics
-   ↓
-6. Response Generation:
-   - Dynamic Content
-   - Status Updates
-   - Notifications
 ```
 
 ---
@@ -250,14 +186,7 @@ gym/
 - PHP 7.4 or higher ([Download](https://www.php.net/downloads))
 - MySQL 5.7 or higher ([Download](https://dev.mysql.com/downloads/))
 - Apache Web Server (XAMPP recommended)
-- Composer ([Download](https://getcomposer.org/))
 - Modern web browser
-
-**Recommended:**
-- XAMPP Control Panel
-- phpMyAdmin
-- Visual Studio Code
-- Git for version control
 
 ### Step-by-Step Installation
 
@@ -272,233 +201,47 @@ cd GYM-MANAGEMENT-PHP
 # Copy project to web server directory
 # For XAMPP: C:\xampp\htdocs\gym\
 # For WAMP: C:\wamp64\www\gym\
-# For Linux: /var/www/html/gym/
 ```
 
 #### 3. Install Dependencies
 ```bash
-# Install Composer dependencies
 composer install
-
-# Verify PHPMailer installation
-composer require phpmailer/phpmailer
 ```
 
-#### 4. Database Configuration
-```sql
--- Create database
-CREATE DATABASE gym_management;
-
--- Import database schema
--- Use phpMyAdmin or command line:
-mysql -u username -p gym_management < database/gym_management.sql
-```
-
-#### 5. Configure Database Connection
-```php
-// config/database.php
-<?php
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "gym_management";
-
-try {
-    $pdo = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
-    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-} catch(PDOException $e) {
-    die("Connection failed: " . $e->getMessage());
-}
-?>
-```
-
-#### 6. Email Configuration
-```php
-// config/email.php
-<?php
-// SMTP Configuration
-$smtp_host = 'smtp.gmail.com';
-$smtp_port = 587;
-$smtp_username = 'your-email@gmail.com';
-$smtp_password = 'your-app-password';
-$smtp_secure = 'tls';
-?>
-```
-
-#### 7. Start Services
-```bash
-# Start Apache and MySQL
-# Using XAMPP Control Panel or command line:
-sudo service apache2 start
-sudo service mysql start
-```
-
-#### 8. Access Application
+#### 4. Access Application
 - **Main Site:** http://localhost/gym/
-- **Admin Panel:** http://localhost/gym/admin/
-- **Member Dashboard:** http://localhost/gym/member/
-- **Trainer Dashboard:** http://localhost/gym/trainer/
+- **Demo Pages:** Navigate through the interface
 
 ### Quick Setup (Windows with XAMPP)
 1. Download and install XAMPP
 2. Clone repository to `C:\xampp\htdocs\gym\`
-3. Start Apache and MySQL from XAMPP Control Panel
-4. Import database using phpMyAdmin
-5. Configure email settings
-6. Access http://localhost/gym/
-
----
-
-## ⚙️ Configuration
-
-### Database Configuration
-
-**config/database.php:**
-```php
-<?php
-// Database connection settings
-define('DB_HOST', 'localhost');
-define('DB_USER', 'root');
-define('DB_PASS', '');
-define('DB_NAME', 'gym_management');
-
-// PDO connection
-try {
-    $pdo = new PDO("mysql:host=".DB_HOST.";dbname=".DB_NAME, DB_USER, DB_PASS);
-    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-    $pdo->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
-} catch(PDOException $e) {
-    die("Database connection failed: " . $e->getMessage());
-}
-?>
-```
-
-### Email Configuration
-
-**config/email.php:**
-```php
-<?php
-use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\SMTP;
-
-// Email settings
-define('SMTP_HOST', 'smtp.gmail.com');
-define('SMTP_PORT', 587);
-define('SMTP_USERNAME', 'your-email@gmail.com');
-define('SMTP_PASSWORD', 'your-app-password');
-define('SMTP_SECURE', 'tls');
-define('FROM_EMAIL', 'your-email@gmail.com');
-define('FROM_NAME', 'Gym Management System');
-?>
-```
-
-### Application Configuration
-
-**config/app.php:**
-```php
-<?php
-// Application settings
-define('APP_NAME', 'Gym Management System');
-define('APP_URL', 'http://localhost/gym/');
-define('APP_VERSION', '1.0.0');
-define('TIMEZONE', 'Asia/Kolkata');
-
-// File upload settings
-define('MAX_FILE_SIZE', 5 * 1024 * 1024); // 5MB
-define('ALLOWED_IMAGE_TYPES', ['jpg', 'jpeg', 'png', 'gif']);
-define('ALLOWED_VIDEO_TYPES', ['mp4', 'avi', 'mov']);
-
-// Security settings
-define('SESSION_TIMEOUT', 3600); // 1 hour
-define('PASSWORD_MIN_LENGTH', 8);
-define('MAX_LOGIN_ATTEMPTS', 5);
-?>
-```
+3. Start Apache from XAMPP Control Panel
+4. Access http://localhost/gym/
 
 ---
 
 ## 🚀 Usage
 
-### Admin Usage
+### Demo Usage
 
-#### 1. Admin Login
-```
-URL: /admin/login.php
-Default Credentials:
-- Username: admin
-- Password: admin123
-```
+1. Open `index.html` or `modern.html` in your browser
+2. Navigate through the demo features
+3. All backend links will show demo limitations
+4. Frontend functionality is fully operational
 
-#### 2. Dashboard Overview
-- View total members, trainers, and revenue
-- Monitor recent registrations and activities
-- Access quick action buttons for common tasks
-
-#### 3. Member Management
-- View all registered members
-- Approve/reject membership applications
-- Monitor payment status and membership expiry
-- Generate member reports
-
-#### 4. Trainer Management
-- Review trainer applications
-- Approve trainer registrations
-- Monitor trainer performance and ratings
-- Manage trainer categories and specializations
-
-### Trainer Usage
-
-#### 1. Trainer Registration
-```
-URL: /trainer_register.php
-Required Information:
-- Personal details
-- Qualifications and certifications
-- ID proof upload
-- Specialization areas
-```
-
-#### 2. Trainer Dashboard
-- View assigned members
-- Create and manage diet plans
-- Monitor member progress
-- Handle diet plan requests
-
-#### 3. Diet Plan Management
-- Create personalized diet plans
-- Upload diet plan documents
-- Set pricing for consultations
-- Track plan effectiveness
-
-### Member Usage
-
-#### 1. Member Registration
-```
-URL: /register.php
-Registration Process:
-- Fill personal information
-- Choose membership plan
-- Complete payment
-- Account activation
-```
-
-#### 2. Member Dashboard
-- View membership status and expiry
-- Browse available gym plans
-- Request diet plans from trainers
-- Make payments for services
-
-#### 3. Booking System
-- Browse gym categories
-- Select membership plans
-- Process secure payments
-- Download membership receipts
+### Available in Demo
+- ✅ Complete UI/UX design
+- ✅ Responsive layouts
+- ✅ Interactive forms
+- ✅ Navigation systems
+- ✅ Visual components
+- ✅ Static content display
 
 ---
 
 ## 🗄️ Database Schema
 
-### Users Table
+### Users Table (Demo Structure)
 ```sql
 CREATE TABLE users (
     id INT PRIMARY KEY AUTO_INCREMENT,
@@ -507,92 +250,101 @@ CREATE TABLE users (
     password VARCHAR(255) NOT NULL,
     full_name VARCHAR(100) NOT NULL,
     phone VARCHAR(15),
-    address TEXT,
     role ENUM('admin', 'member', 'trainer') DEFAULT 'member',
-    status ENUM('active', 'inactive', 'pending') DEFAULT 'pending',
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
-);
-```
-
-### Memberships Table
-```sql
-CREATE TABLE memberships (
-    id INT PRIMARY KEY AUTO_INCREMENT,
-    user_id INT NOT NULL,
-    plan_name VARCHAR(100) NOT NULL,
-    plan_type VARCHAR(50) NOT NULL,
-    amount DECIMAL(10,2) NOT NULL,
-    start_date DATE NOT NULL,
-    end_date DATE NOT NULL,
-    status ENUM('active', 'expired', 'cancelled') DEFAULT 'active',
-    payment_status ENUM('paid', 'pending', 'failed') DEFAULT 'pending',
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    FOREIGN KEY (user_id) REFERENCES users(id)
-);
-```
-
-### Trainers Table
-```sql
-CREATE TABLE trainers (
-    id INT PRIMARY KEY AUTO_INCREMENT,
-    user_id INT NOT NULL,
-    specialization VARCHAR(200),
-    experience_years INT,
-    certification TEXT,
-    id_proof_path VARCHAR(255),
-    approval_status ENUM('pending', 'approved', 'rejected') DEFAULT 'pending',
-    rating DECIMAL(3,2) DEFAULT 0.00,
-    total_reviews INT DEFAULT 0,
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    FOREIGN KEY (user_id) REFERENCES users(id)
-);
-```
-
-### Diet Plans Table
-```sql
-CREATE TABLE diet_plans (
-    id INT PRIMARY KEY AUTO_INCREMENT,
-    trainer_id INT NOT NULL,
-    member_id INT,
-    plan_name VARCHAR(100) NOT NULL,
-    description TEXT,
-    file_path VARCHAR(255),
-    price DECIMAL(10,2),
-    duration_days INT,
-    status ENUM('active', 'inactive') DEFAULT 'active',
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    FOREIGN KEY (trainer_id) REFERENCES trainers(id),
-    FOREIGN KEY (member_id) REFERENCES users(id)
-);
-```
-
-### Payments Table
-```sql
-CREATE TABLE payments (
-    id INT PRIMARY KEY AUTO_INCREMENT,
-    user_id INT NOT NULL,
-    amount DECIMAL(10,2) NOT NULL,
-    payment_type ENUM('membership', 'diet_plan', 'other') NOT NULL,
-    payment_method VARCHAR(50),
-    transaction_id VARCHAR(100),
-    status ENUM('pending', 'completed', 'failed', 'refunded') DEFAULT 'pending',
-    payment_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    FOREIGN KEY (user_id) REFERENCES users(id)
-);
-```
-
-### Gym Categories Table
-```sql
-CREATE TABLE gym_categories (
-    id INT PRIMARY KEY AUTO_INCREMENT,
-    category_name VARCHAR(100) NOT NULL,
-    description TEXT,
-    image_path VARCHAR(255),
-    status ENUM('active', 'inactive') DEFAULT 'active',
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 ```
+
+### Additional Tables (Full Version Only)
+- Memberships Table
+- Trainers Table  
+- Diet Plans Table
+- Payments Table
+- Categories Table
+- Analytics Tables
+
+---
+
+## ⚠️ Demo Limitations
+
+### Removed Features (Demo Version)
+
+❌ **Backend Features:**
+- Payment processing system
+- Email notification system
+- Database operations for transactions
+- SMS integration
+- Advanced authentication
+- Real-time data processing
+- File upload functionality
+- Report generation
+
+❌ **Security Features:**
+- Production-grade encryption
+- Advanced session management
+- Rate limiting
+- CSRF protection implementation
+
+❌ **Integration Features:**
+- Payment gateway APIs
+- Email service providers
+- Third-party integrations
+- Cloud storage
+
+### Available Features (Demo Version)
+
+✅ **Frontend Features:**
+- Complete UI/UX design
+- Responsive layouts
+- Interactive components
+- Navigation systems
+- Form interfaces
+- Visual elements
+
+✅ **Basic Backend:**
+- Static content serving
+- Basic routing
+- Template rendering
+- Asset management
+
+---
+
+## 🎯 Full Version Features
+
+### Complete Backend Implementation
+- ✅ Fully functional payment processing
+- ✅ Complete email notification system
+- ✅ Advanced user authentication
+- ✅ Real-time database operations
+- ✅ File upload and management
+- ✅ Automated report generation
+- ✅ SMS integration system
+
+### Production-Ready Features
+- ✅ MySQL database with full schema
+- ✅ Secure payment gateways
+- ✅ Email service integration
+- ✅ Cloud storage support
+- ✅ Advanced security measures
+- ✅ Performance optimization
+- ✅ Scalability features
+
+### Additional Features
+- ✅ Multi-language support
+- ✅ Advanced analytics
+- ✅ Mobile app integration
+- ✅ API endpoints
+- ✅ Third-party integrations
+- ✅ Custom reporting
+- ✅ Backup systems
+
+### Documentation & Support
+- ✅ Complete API documentation
+- ✅ Installation guides
+- ✅ User manuals
+- ✅ Video tutorials
+- ✅ Technical support
+- ✅ Future updates
 
 ---
 
@@ -626,108 +378,24 @@ CREATE TABLE gym_categories (
   </tr>
 </table>
 
-### Payment Integration
+### Payment Integration (Full Version)
 ![Payment QR](screenshots/payment-qr.png)
 
 </div>
 
 ---
 
-## 🔌 API Documentation
-
-### Authentication Endpoints
-```
-POST /api/auth/login          - User login
-POST /api/auth/register       - User registration
-POST /api/auth/logout         - User logout
-POST /api/auth/forgot-password - Password reset request
-POST /api/auth/reset-password  - Password reset
-```
-
-### Member Endpoints
-```
-GET  /api/members/            - List all members
-GET  /api/members/{id}        - Get member details
-PUT  /api/members/{id}        - Update member profile
-DELETE /api/members/{id}      - Delete member account
-GET  /api/members/{id}/memberships - Get member memberships
-```
-
-### Trainer Endpoints
-```
-GET  /api/trainers/           - List all trainers
-GET  /api/trainers/{id}       - Get trainer details
-PUT  /api/trainers/{id}       - Update trainer profile
-GET  /api/trainers/{id}/diet-plans - Get trainer's diet plans
-POST /api/trainers/{id}/diet-plans - Create new diet plan
-```
-
-### Payment Endpoints
-```
-POST /api/payments/process    - Process payment
-GET  /api/payments/{id}       - Get payment details
-GET  /api/payments/history/{user_id} - Get payment history
-POST /api/payments/refund     - Process refund
-```
-
-### Admin Endpoints
-```
-GET  /api/admin/dashboard     - Get dashboard statistics
-GET  /api/admin/users         - List all users
-PUT  /api/admin/users/{id}/status - Update user status
-GET  /api/admin/reports       - Generate reports
-```
-
----
-
-## 🛡️ Security Features
-
-### Authentication Security
-- **Password Hashing:** bcrypt with salt
-- **Session Management:** Secure session handling with timeout
-- **Login Attempts:** Rate limiting for failed login attempts
-- **Password Policy:** Minimum length and complexity requirements
-- **Account Lockout:** Temporary lockout after multiple failed attempts
-
-### Data Protection
-- **SQL Injection Prevention:** Prepared statements and parameterized queries
-- **XSS Protection:** Input sanitization and output encoding
-- **CSRF Protection:** Token-based CSRF prevention
-- **File Upload Security:** File type validation and secure storage
-- **Data Encryption:** Sensitive data encryption at rest
-
-### Access Control
-- **Role-Based Access:** Different permissions for admin, trainer, and member
-- **Route Protection:** Authentication required for protected routes
-- **Input Validation:** Server-side validation for all user inputs
-- **Error Handling:** Secure error messages without information disclosure
-- **Audit Logging:** Activity logging for security monitoring
-
----
-
 ## 📄 License
 
-**MIT License**
+**Proprietary License**
 
-Copyright (c) 2025 Vivek P S
+© 2025 Vivek P S. All Rights Reserved.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+This is a demonstration version with restricted usage:
+- ❌ No commercial use
+- ❌ No redistribution
+- ❌ No modification
+- ✅ Evaluation purposes only
 
 ---
 
@@ -741,15 +409,17 @@ SOFTWARE.
 🐙 **GitHub:** [@VivekOrginal](https://github.com/VivekOrginal)  
 💼 **LinkedIn:** [Connect with me](https://linkedin.com/in/vivekps)
 
-### Professional Services
+### Purchase Full Version
 
-**Available for:**
-- ✅ Custom gym management solutions
-- ✅ Feature enhancements and modifications
-- ✅ Integration with third-party services
-- ✅ Technical support and maintenance
-- ✅ Training and documentation
-- ✅ Deployment and hosting assistance
+**What You Get:**
+- ✅ Complete source code with all features
+- ✅ Full backend implementation
+- ✅ Production-ready deployment
+- ✅ Database schema and setup
+- ✅ Documentation & guides
+- ✅ Technical support
+- ✅ Future updates
+- ✅ Customization options
 
 **Payment Methods:**
 
@@ -770,20 +440,18 @@ SOFTWARE.
 - PHP Community for excellent documentation
 - Bootstrap team for responsive framework
 - PHPMailer contributors for email functionality
-- MySQL team for robust database system
 - Open source community for inspiration
 
 ---
 
 ## 📊 Project Statistics
 
-- **Lines of Code:** 12,000+
-- **Files:** 85+
-- **Database Tables:** 15+
-- **Features:** 50+
-- **User Roles:** 3
-- **Payment Methods:** Multiple
-- **Responsive Breakpoints:** 5+
+- **Lines of Code:** 12,000+ (Full Version)
+- **Files:** 85+ (Full Version)
+- **Database Tables:** 15+ (Full Version)
+- **Features:** 50+ (Full Version)
+- **Demo Files:** 25+
+- **Screenshots:** 9
 
 ---
 
@@ -791,8 +459,10 @@ SOFTWARE.
 
 **Made with ❤️ for fitness enthusiasts and gym management**
 
+*This demo is provided to showcase the frontend design and user interface. The complete functionality is available in the full version.*
+
 © 2025 Vivek P S. All Rights Reserved.
 
-[⬆ Back to Top](#-gym-management-system---complete-fitness-platform)
+[⬆ Back to Top](#-gym-management-system-demo-version)
 
 </div>
