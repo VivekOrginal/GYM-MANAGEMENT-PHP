@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Purchase Full Project - FitZone Pro</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #ff4757;
+            --secondary-color: #1a1a1a;
+            --accent-color: #ff6b7a;
+            --text-dark: #ffffff;
+            --text-light: #b0b0b0;
+            --dark-bg: #111111;
+            --card-bg: #1a1a1a;
+            --gradient-primary: linear-gradient(135deg, #ff4757 0%, #ff6b7a 100%);
+            --shadow-light: 0 5px 15px rgba(255, 255, 255, 0.05);
+            --shadow-medium: 0 10px 30px rgba(255, 255, 255, 0.08);
+            --border-radius: 12px;
+            --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #000000;
+            color: var(--text-dark);
+            min-height: 100vh;
+            position: relative;
+        }
+
+        .video-background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -2;
+        }
+
+        .video-background video {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            min-width: 100%;
+            min-height: 100%;
+            width: auto;
+            height: auto;
+            transform: translate(-50%, -50%);
+            object-fit: cover;
+        }
+
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            z-index: -1;
+        }
+
+        .navbar {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            z-index: 1000;
+            padding: 1rem 0;
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .nav-logo h2 {
+            font-family: 'Oswald', sans-serif;
+            font-size: 1.8rem;
+            color: var(--text-dark);
+            margin: 0;
+        }
+
+        .nav-logo span {
+            color: var(--primary-color);
+        }
+
+        .back-btn {
+            background: var(--gradient-primary);
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border-radius: var(--border-radius);
+            text-decoration: none;
+            font-weight: 600;
+            transition: var(--transition);
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .back-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-medium);
+            color: white;
+            text-decoration: none;
+        }
+
+        .main-container {
+            padding-top: 120px;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .purchase-card {
+            max-width: 600px;
+            width: 100%;
+            margin: 0 20px;
+            background: rgba(26, 26, 26, 0.95);
+            backdrop-filter: blur(20px);
+            border-radius: var(--border-radius);
+            padding: 3rem;
+            box-shadow: var(--shadow-medium);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            text-align: center;
+        }
+
+        .purchase-header {
+            margin-bottom: 2rem;
+        }
+
+        .purchase-header .logo {
+            font-family: 'Oswald', sans-serif;
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: var(--text-dark);
+        }
+
+        .purchase-header .logo span {
+            color: var(--primary-color);
+        }
+
+        .purchase-header h1 {
+            font-family: 'Oswald', sans-serif;
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            color: var(--text-dark);
+        }
+
+        .purchase-header p {
+            color: var(--text-light);
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+
+        .features-list {
+            background: rgba(17, 17, 17, 0.8);
+            border-radius: var(--border-radius);
+            padding: 2rem;
+            margin: 2rem 0;
+            text-align: left;
+        }
+
+        .features-list h3 {
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+            font-family: 'Oswald', sans-serif;
+            text-align: center;
+        }
+
+        .features-list ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .features-list li {
+            padding: 0.5rem 0;
+            color: var(--text-light);
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .features-list li i {
+            color: var(--primary-color);
+            width: 20px;
+        }
+
+        .price-section {
+            background: var(--gradient-primary);
+            border-radius: var(--border-radius);
+            padding: 2rem;
+            margin: 2rem 0;
+        }
+
+        .price-section h2 {
+            font-family: 'Oswald', sans-serif;
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .price-section p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        .contact-info {
+            background: rgba(17, 17, 17, 0.8);
+            border-radius: var(--border-radius);
+            padding: 2rem;
+            margin: 2rem 0;
+        }
+
+        .contact-info h3 {
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+            font-family: 'Oswald', sans-serif;
+        }
+
+        .developer-info {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            align-items: center;
+        }
+
+        .developer-name {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: var(--text-dark);
+        }
+
+        .developer-email {
+            color: var(--primary-color);
+            font-size: 1.2rem;
+            text-decoration: none;
+            transition: var(--transition);
+        }
+
+        .developer-email:hover {
+            color: var(--accent-color);
+        }
+
+        .contact-buttons {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 1rem;
+        }
+
+        .contact-btn {
+            background: var(--gradient-primary);
+            color: white;
+            padding: 1rem 2rem;
+            border: none;
+            border-radius: var(--border-radius);
+            font-weight: 600;
+            text-decoration: none;
+            transition: var(--transition);
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .contact-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-medium);
+            color: white;
+            text-decoration: none;
+        }
+
+        .warning-box {
+            background: rgba(255, 71, 87, 0.1);
+            border: 2px solid rgba(255, 71, 87, 0.3);
+            border-radius: var(--border-radius);
+            padding: 1.5rem;
+            margin: 2rem 0;
+            color: var(--primary-color);
+        }
+
+        .warning-box h4 {
+            margin-bottom: 0.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        @media (max-width: 768px) {
+            .purchase-card {
+                padding: 2rem;
+                margin: 0 15px;
+            }
+
+            .purchase-header .logo {
+                font-size: 2rem;
+            }
+
+            .purchase-header h1 {
+                font-size: 1.5rem;
+            }
+
+            .contact-buttons {
+                flex-direction: column;
+            }
+
+            .nav-container {
+                padding: 0 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Video Background -->
+    <div class="video-background">
+        <video autoplay muted loop>
+            <source src="assets/videos/gym-hero.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>FitZone<span>Pro</span></h2>
+            </div>
+            <a href="modern.html" class="back-btn">
+                <i class="fas fa-arrow-left"></i>
+                Back to Home
+            </a>
+        </div>
+    </nav>
+
+    <div class="main-container">
+        <div class="purchase-card">
+            <div class="purchase-header">
+                <div class="logo">FitZone<span>Pro</span></div>
+                <h1>Complete Gym Management System</h1>
+                <p>Get the full source code with backend functionality, database, and all features</p>
+            </div>
+
+            <div class="warning-box">
+                <h4><i class="fas fa-exclamation-triangle"></i> Demo Version</h4>
+                <p>This is a demo version with limited functionality. Backend features have been removed to protect the source code.</p>
+            </div>
+
+            <div class="features-list">
+                <h3>What You'll Get:</h3>
+                <ul>
+                    <li><i class="fas fa-check"></i> Complete PHP Backend with MySQL Database</li>
+                    <li><i class="fas fa-check"></i> Admin Dashboard with Full Management</li>
+                    <li><i class="fas fa-check"></i> Member Registration & Login System</li>
+                    <li><i class="fas fa-check"></i> Trainer Management System</li>
+                    <li><i class="fas fa-check"></i> Membership Plans & Booking</li>
+                    <li><i class="fas fa-check"></i> Diet Plan Management</li>
+                    <li><i class="fas fa-check"></i> Payment Integration Ready</li>
+                    <li><i class="fas fa-check"></i> Email Notifications</li>
+                    <li><i class="fas fa-check"></i> File Upload System</li>
+                    <li><i class="fas fa-check"></i> Responsive Design</li>
+                    <li><i class="fas fa-check"></i> Complete Documentation</li>
+                    <li><i class="fas fa-check"></i> Installation Guide</li>
+                </ul>
+            </div>
+
+            <div class="price-section">
+                <h2>Contact for Pricing</h2>
+                <p>Get a custom quote based on your requirements</p>
+            </div>
+
+            <div class="contact-info">
+                <h3>Developer Contact</h3>
+                <div class="developer-info">
+                    <div class="developer-name">Vivek P S</div>
+                    <a href="mailto:viveksubhash4@gmail.com" class="developer-email">viveksubhash4@gmail.com</a>
+                    
+                    <div class="contact-buttons">
+                        <a href="mailto:viveksubhash4@gmail.com" class="contact-btn">
+                            <i class="fas fa-envelope"></i>
+                            Send Email
+                        </a>
+                        <a href="mailto:viveksubhash4@gmail.com?subject=FitZone Pro - Purchase Inquiry" class="contact-btn">
+                            <i class="fas fa-shopping-cart"></i>
+                            Purchase Now
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Smooth animations
+        document.addEventListener('DOMContentLoaded', function() {
+            const card = document.querySelector('.purchase-card');
+            card.style.opacity = '0';
+            card.style.transform = 'translateY(30px)';
+            
+            setTimeout(() => {
+                card.style.transition = 'all 0.6s ease';
+                card.style.opacity = '1';
+                card.style.transform = 'translateY(0)';
+            }, 100);
+        });
+    </script>
+</body>
+</html>
