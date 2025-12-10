@@ -134,6 +134,29 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Font Awesome for icons
 - jQuery for enhanced user interactions
 
+## 📸 Screenshots
+
+### Homepage
+![Homepage](screenshots/home.png)
+
+### User Registration
+![User Registration](screenshots/register.png)
+
+### User Login
+![User Login](screenshots/login.png)
+
+### Trainer Registration
+![Trainer Registration](screenshots/trainer-register.png)
+
+### Additional Views
+![Home View 1](screenshots/home-1.png)
+![Home View 2](screenshots/home-2.png)
+![Home View 3](screenshots/home-3.png)
+![Home View 4](screenshots/home-4.png)
+
+### Payment Integration
+![Payment QR](screenshots/payment-qr.png)
+
 ## 📞 Support
 
 For support and queries, please open an issue in the GitHub repository or contact the development team.
