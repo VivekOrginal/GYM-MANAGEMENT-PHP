@@ -388,10 +388,10 @@ CREATE TABLE users (
 
 This is a demonstration version with restricted usage:
 
-- ❌ No commercial use
-- ❌ No redistribution
-- ❌ No modification
-- ✅ Evaluation purposes only
+❌ No commercial use
+❌ No redistribution
+❌ No modification
+✅ Evaluation purposes only
 
 ---
 
@@ -408,14 +408,14 @@ This is a demonstration version with restricted usage:
 ### Purchase Full Version
 
 **What You Get:**
-- ✅ Complete source code with all features
-- ✅ Full backend implementation
-- ✅ Production-ready deployment
-- ✅ Database schema and setup
-- ✅ Documentation & guides
-- ✅ Technical support
-- ✅ Future updates
-- ✅ Customization options
+✅ Complete source code with all features
+✅ Full backend implementation
+✅ Production-ready deployment
+✅ Database schema and setup
+✅ Documentation & guides
+✅ Technical support
+✅ Future updates
+✅ Customization options
 
 **Payment Methods:**
 
@@ -433,21 +433,21 @@ This is a demonstration version with restricted usage:
 
 ## 🙏 Acknowledgments
 
-- PHP Community for excellent documentation
-- Bootstrap team for responsive framework
-- PHPMailer contributors for email functionality
-- Open source community for inspiration
+PHP Community for excellent documentation
+Bootstrap team for responsive framework
+PHPMailer contributors for email functionality
+Open source community for inspiration
 
 ---
 
 ## 📊 Project Statistics
 
-- **Lines of Code:** 12,000+ (Full Version)
-- **Files:** 85+ (Full Version)
-- **Database Tables:** 15+ (Full Version)
-- **Features:** 50+ (Full Version)
-- **Demo Files:** 25+
-- **Screenshots:** 9
+**Lines of Code:** 12,000+ (Full Version)
+**Files:** 85+ (Full Version)
+**Database Tables:** 15+ (Full Version)
+**Features:** 50+ (Full Version)
+**Demo Files:** 25+
+**Screenshots:** 9
 
 ---
 
