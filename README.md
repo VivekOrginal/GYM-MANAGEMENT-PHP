@@ -392,6 +392,7 @@ CREATE TABLE users (
 © 2025 Vivek P S. All Rights Reserved.
 
 This is a demonstration version with restricted usage:
+
 - ❌ No commercial use
 - ❌ No redistribution
 - ❌ No modification
