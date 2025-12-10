@@ -378,11 +378,6 @@ CREATE TABLE users (
   </tr>
 </table>
 
-### Payment Integration (Full Version)
-![Payment QR](screenshots/payment-qr.png)
-
-</div>
-
 ---
 
 ## 📄 License
