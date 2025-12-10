@@ -10,7 +10,7 @@ A comprehensive web-based gym management system built with PHP and MySQL, design
 - Diet plan requests and management
 - Payment processing for memberships and diet plans
 
-### 🏃‍♂️ Trainer Management
+### 🏃♂️ Trainer Management
 - Trainer registration and profile management
 - Diet plan creation and management
 - Member assignment and tracking
@@ -41,8 +41,8 @@ A comprehensive web-based gym management system built with PHP and MySQL, design
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/gym-management-php.git
-   cd gym-management-php
+   git clone https://github.com/VivekOrginal/GYM-MANAGEMENT-PHP.git
+   cd GYM-MANAGEMENT-PHP
    ```
 
 2. **Setup Database**
